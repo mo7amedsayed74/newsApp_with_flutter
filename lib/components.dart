@@ -8,7 +8,7 @@ Widget articleItem({
   required BuildContext contextParameter,
   required Map articleParameter,
 }) {
-  return GestureDetector(
+  return GestureDetector( // use GestureDetector (or) InkWell
     onTap: (){
       followUrlLink(
         articleUrl: articleParameter['url'],
