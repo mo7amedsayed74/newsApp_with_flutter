@@ -63,7 +63,7 @@ class NewsAppCubit extends Cubit<NewsAppStates>{
   }
 
   /// get data (Dio)
-  // my apiKey : https://newsapi.org/v2/top-headlines?apiKey=2c13eed31aa84ce38b5f01c2ddf398f0&country=us&category=business
+  // https://newsapi.org/v2/top-headlines?apiKey=2c13eed31aa84ce38b5f01c2ddf398f0&country=us&category=business
   // https://newsapi.org/v2/top-headlines?apiKey=66b5a55516a24d118a228a1ab414f169&country=us&category=business
 
 
